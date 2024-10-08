@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    height: 95vh;
+}
+h1{
+    text-align: center;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+.inputDiv{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+.inputDiv label{
+    width: 100%;
+}
+.buttons{
+    flex-direction: row;
+}
+button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+input {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+.output {
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
